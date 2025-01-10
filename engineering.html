@@ -10,14 +10,14 @@
 </head>
 <body>
     <header class="container-fluid bg-light">
-        <div class="col-12 container">
+        <div class="container">
             <div class="row">
-                <div class="col-2 d-flex align-items-center justify-content-center">
+                <div class="col-12 col-sm-2 col-md-2  d-flex align-items-center justify-content-center">
                     <img class="img-fluid" src="./Image/rupp-logo.png" alt="logo">
                 </div>
-                <div class="col-10 d-flex flex-column">
+                <div class="col-12 col-sm-10 col-md-10 d-flex flex-column">
                     <nav>
-                        <ul class="d-flex justify-content-between">
+                        <ul class="d-flex flex-wrap justify-content-between">
                             <li class="list-group-item">
                                 <a class="" href="#">HOME</a>
                             </li>
@@ -58,7 +58,7 @@
                     </nav>
                     <!-- name-of-university -->
                     <div class="row">
-                        <div class="col-12 university-name">
+                        <div class="col-12 col-sm-10 university-name text-center text-md-start">
                             <h1 class="fs-5">
                                 សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ
                             </h1>
@@ -69,60 +69,82 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 ">
-                <p class="text-muted mb-0 text-end" style="font-size: 10px;">Education, Research, and Service to Society
-                </p>
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-muted mb-0 text-end" style="font-size: 10px;">Education, Research, and Service to
+                        Society</p>
+                </div>
             </div>
         </div>
     </header>
 
-    <!-- sub-navbar -->
-    <div class="container-fluid bg-danger mb-5">
-        <div class="col-12 container">
-            <div class="row sec-nav">
-                <ul class="d-table-cell text-decoration-none h-100 w-100">
-                    <li class="list-group-item ">
-                        <a class="" href="./index.html">Faculty of Science</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="" href="./social.html">Faculty of Social Science and Humanities</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="" href="./engineering.html">Faculty of Engineering</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="" href="./development.html">Faculty of Development Studies</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="" href="./education.html">Faculty of Education</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="" href="#">Institute of Foreign Languages</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="" href="#">Institute for International Studies and Public Policy</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="" href="#">Centers</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="" href="#">Offices</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="" href="#">Conferences</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
 
+    <!-- sub-navbar -->
+    <div class="container-fluid bg-danger">
+        <div class="container">
+            <!-- Navbar header -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex flex-wrap gap-2 text-decoration-none w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Faculty of Science</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./social.html">Faculty of Social Science and Humanities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./engineering.html">Faculty of Engineering</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./development.html">Faculty of Development Studies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./education.html">Faculty of Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Institute of Foreign Languages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Institute for International Studies and Public Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Centers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Offices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Conferences</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </div>
-    <div class="container-fluid">
+
+    <div class="container-fluid mt-5">
         <div class="container">
             <div class="row d-flex justify-content-between">
-                <div class="col-3 ">
-
+                <!-- Left Column: Empty for Layout -->
+                <div class="col-12 col-md-3">
+                    <!-- Empty Column - Can be used for additional content -->
                 </div>
-                <div class="col-5 h-100  text-start bg-light  border-top border-danger border-4 ">
+    
+                <!-- Center Column: Faculty of Engineering Content -->
+                <div class="col-12 col-md-5 h-100 text-start bg-light border-top border-danger border-4 mb-3">
                     <h3>Faculty of Engineering</h3>
                     <img class="img-fluid" src="./Image/banner1.jpg" alt="">
                     <p>There are 5 departments in Faculty of Engineering</p>
@@ -155,33 +177,24 @@
                             </ul>
                         </li>
                     </ol>
-                    <p>For more please visit => <a href=""> Faculty of Engineering</a></p>
+                    <p>For more please visit => <a href="">Faculty of Engineering</a></p>
                 </div>
-                <div class="col-3 h-100 text-center bg-light border-top border-danger border-4  ">
-                    <div class="row ">
+    
+                <!-- Right Column: Contact Info -->
+                <div class="col-12 col-md-3 h-100 text-center bg-light border-top border-danger border-4 mb-3">
+                    <div class="row">
                         <div class="col text-start">
                             <h5>Contact Info</h5>
-                            <img src="./Image/contact.jpg" alt=""></br>
-                            Email: fe.info(at)rupp.edu.kh</br>
-                            Room #103, STEM Building, Campus I</br>
-                            facebook page: fb.me/rupp.fe</br>
+                            <img src="./Image/contact.jpg" alt="" class="img-fluid"><br>
+                            Email: fe.info(at)rupp.edu.kh<br>
+                            Room #103, STEM Building, Campus I<br>
+                            Facebook page: fb.me/rupp.fe<br>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col-12">
-        <div class="row">
-            <div class="col-12 bg-light border-top border-danger border-5 p-3 mt-2 ">
-                <div class="row text-center w-50 m-auto footer">
-                    <p>All Rights Reserved, Copyright © 2023 Royal University of Phnom Penh (RUPP)
-                        Russian Federation Boulevard, Toul Kork, Phnom Penh, Cambodia. Tel: 855-23-883-640 Fax: 855-23-880-116
-                    </p>
-                    <p>Designed by:  <span><a href="#">IT Center</a></span></p>
-                </div>
-            </div>
-        </div>
-     </div>
+    
 </body>
 </html>
